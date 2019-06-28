@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29020.237
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Log4NetDemo.WebApi", "Log4NetDemo.WebApi\Log4NetDemo.WebApi.csproj", "{56E11084-4882-4BA5-91AE-742059278C62}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56E11084-4882-4BA5-91AE-742059278C62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56E11084-4882-4BA5-91AE-742059278C62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56E11084-4882-4BA5-91AE-742059278C62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56E11084-4882-4BA5-91AE-742059278C62}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {160B4D31-9432-4CD3-B730-9B0866FD0B14}
+	EndGlobalSection
+EndGlobal
