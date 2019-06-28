@@ -35,7 +35,7 @@ namespace Log4NetDemo.WebApi
             {
                 app.UseDeveloperExceptionPage();
             }
-            loggerFactory.AddLog4Net();
+            loggerFactory.AddLog4Net();//log4net
             app.UseMvc();
         }
     }

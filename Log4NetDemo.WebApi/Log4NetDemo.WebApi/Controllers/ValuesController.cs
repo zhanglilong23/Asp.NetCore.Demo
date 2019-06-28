@@ -11,7 +11,7 @@ namespace Log4NetDemo.WebApi.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
-        private readonly ILogger _logger;
+        private readonly ILogger _logger; //注入日志
         public ValuesController(ILoggerFactory loggerFactory)
         {
             _logger = loggerFactory.CreateLogger<ValuesController>();
